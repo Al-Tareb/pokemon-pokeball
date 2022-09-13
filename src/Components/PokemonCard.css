@@ -369,7 +369,7 @@ font-weight: bold;
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
     .container{
         margin-right: 5px;
         margin-left: 20px;
@@ -446,11 +446,11 @@ font-weight: bold;
         border-bottom: 1px solid white;
     }
     .right{
-        width: 50%;
+        width: 60%;
         height: 35px;
         margin: 5px 0px;
         border-radius: 50px;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400px;
         margin-left: 20px;
         right: 0;
@@ -461,9 +461,9 @@ font-weight: bold;
         width: 30px;
     }
     .right .pokemon-no{
-       margin-right: 5px;
+       margin-right: 10px;
         max-width: 50px;
-        font-size: 13px;
+        font-size: 10px;
     }
     
     .right:nth-child(1){
