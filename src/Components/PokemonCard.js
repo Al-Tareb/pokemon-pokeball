@@ -49,8 +49,7 @@ const PokemonCard = ({id, name, image, type, weight, height, stats, statsName}) 
             </div>
        </div>
        )}
-       {/* onMouseLeave={()=> setIsShown(false)}  */}
-       <div className='right' onMouseEnter={()=> setIsShown(true)}   onClick={openSelectedPokemon} >
+       <div className='right' onMouseEnter={()=> setIsShown(true)} onMouseLeave={()=> setIsShown(false)}   onClick={openSelectedPokemon} >
           <img src={image} alt={name} />
           <p className='pokemon-no'>No. {id}</p>
           <p>{name}</p>
