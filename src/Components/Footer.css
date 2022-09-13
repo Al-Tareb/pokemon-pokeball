@@ -1,0 +1,15 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    padding-left: 43%;
+    background: #4d4dff;
+    padding-top: 10px;
+}
+.footer-btn{
+    display: flex;
+    grid-template: 15px;
+    color: white;
+    cursor: pointer;
+}

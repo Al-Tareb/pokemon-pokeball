@@ -1,0 +1,65 @@
+.select-Poke{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(176, 173, 212, 0.99), rgba(249, 242, 255, 0.6)), url(../image/pokeball.jpeg) no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-Poke .close-select-Poke{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border-radius: 50%;
+    background: #4d4dff;
+    color: white;
+    font-weight: 900;
+    padding: 1px 10px;
+    cursor: pointer;
+}
+.select-Poke .select-Poke-image img{
+    filter: drop-shadow(2px 4px 12px black)
+}
+
+.select-Poke .select-Poke-detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    height: 500px;
+}
+
+
+@media only screen and (max-width: 1200px) {  
+    .select-Poke .select-Poke-detail{
+        width: 450px;
+        height: 500px;
+    }
+    .select-Poke .select-Poke-image img{
+        filter: drop-shadow(2px 4px 12px black);
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+  
+    .select-Poke .select-Poke-detail{
+        width: 350px;
+        height: 500px;
+        margin-right: 5%;
+    }
+    .select-Poke .select-Poke-image img{
+        filter: drop-shadow(2px 4px 12px black);
+        width: 70%;
+    }  
+ 
+}
