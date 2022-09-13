@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pokemon-pokeball/static/css/main.bb008757.css",
+    "main.css": "/pokemon-pokeball/static/css/main.faea1e9e.css",
     "main.js": "/pokemon-pokeball/static/js/main.e68b2551.js",
     "static/media/pkeball.png": "/pokemon-pokeball/static/media/pkeball.8cadf711c06714c66cfb.png",
     "index.html": "/pokemon-pokeball/index.html",
-    "main.bb008757.css.map": "/pokemon-pokeball/static/css/main.bb008757.css.map",
+    "main.faea1e9e.css.map": "/pokemon-pokeball/static/css/main.faea1e9e.css.map",
     "main.e68b2551.js.map": "/pokemon-pokeball/static/js/main.e68b2551.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb008757.css",
+    "static/css/main.faea1e9e.css",
     "static/js/main.e68b2551.js"
   ]
 }
