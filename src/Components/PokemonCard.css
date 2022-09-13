@@ -369,7 +369,7 @@ font-weight: bold;
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 360px) {
     .container{
         margin-right: 5px;
         margin-left: 20px;
