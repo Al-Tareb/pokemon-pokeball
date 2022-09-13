@@ -315,9 +315,13 @@ font-weight: bold;
         line-height: 1.2;
     }
     .stat-container-details .stats-left > p{
-    color: #990000;
-    font-weight: bold;
-    }
+        color: #990000;
+        font-weight: bold;
+        font-size: 13px;
+        }
+        .stat-container-details .stats-right > p{
+            font-size: 13px;
+        }
     .base-stats{
         width: 80%;
         border-radius: 5px;
@@ -356,6 +360,108 @@ font-weight: bold;
     }
     .right .pokemon-no{
        margin-right: 50px;
+        max-width: 50px;
+        font-size: 13px;
+    }
+    .right:nth-child(1){
+        margin-right: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 390px) {
+    .container{
+        margin-right: 5px;
+        margin-left: 20px;
+    }
+    .show{
+        width: 170px;
+        height: 48vh;
+        border-radius: 10px;
+        left: 12%;
+        top: 17%;
+    }
+    .stat-container-title{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0;
+        height: 30px;
+        }
+    .stat-container-title .image-title{
+        width: 30px;
+        min-height: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .stat-container-title > p{
+        margin-right: 20px;
+    }
+    .show .show-image{
+        width: 35%;
+        height: 100px;
+    }
+    .stat-container-details{
+        width: 70%;
+        height: 80px;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    .stat-container-details .stats-left,
+    .stat-container-details .stats-right{
+        width: 40%;
+        font-size: 10px;
+    }
+    .stat-container-details .stats-left > p,
+    .stat-container-details .stats-right > p{
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 1.2;
+    }
+    .stat-container-details .stats-left > p{
+    color: #990000;
+    font-weight: bold;
+    font-size: 11px;
+    }
+    .stat-container-details .stats-right > p{
+        font-size: 11px;
+    }
+    .base-stats{
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .base-stats > div{
+        padding: 5px;
+    }
+    .base-stats > div .stats{
+        font-size:  11px;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .base-stats > div .stats:nth-child(1),
+    .base-stats > div .stats:nth-child(2){
+        border-bottom: 1px solid white;
+    }
+    .right{
+        width: 50%;
+        height: 35px;
+        margin: 5px 0px;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 400px;
+        margin-left: 20px;
+        right: 0;
+    }
+    .right > img{
+        margin-right: 1%;
+        max-height: 25px;
+        width: 30px;
+    }
+    .right .pokemon-no{
+       margin-right: 5px;
         max-width: 50px;
         font-size: 13px;
     }
